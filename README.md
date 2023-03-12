@@ -31,12 +31,14 @@ The Calc_Mean function calculates the mean of the data set. It takes an object p
 
 # Calc_Variance
 The Calc_Variance function calculates the variance of the data set. It takes an object pointer and returns a result indicating success or failure. Here is an example usage:
+
 `stat_type obj;`
 
 `result_type result = Calc_Standard_dev(&obj);`
 
 # Calc_Standard_dev
 The Calc_Standard_dev function calculates the standard deviation of the data set. It takes an object pointer and returns a result indicating success or failure. Here is an example usage:
+
 `stat_type obj;`
 
 `result_type result = Calc_Standard_dev(&obj);`
