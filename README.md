@@ -3,7 +3,8 @@ this c library is for calculating mean, variance, and standard deviation , you c
 
 # Statistics Library
 This library provides statistical functions to calculate mean, variance, and standard deviation for a set of data. It consists of the following functions:
-Set_Data: This function is used to set the data for the statistics object. It takes an object pointer, an index, and a value, and returns a result indicating success or failure.
+
+**Set_Data**: This function is used to set the data for the statistics object. It takes an object pointer, an index, and a value, and returns a result indicating success or failure.
 
 **Calc_Mean**: This function calculates the mean of the data set. It takes an object pointer and returns a result indicating success or failure.
 
