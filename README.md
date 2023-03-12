@@ -17,6 +17,7 @@ To use this library, include the "statstics.h" header file in your program. You 
 # Usage
 # Set_Data
 The Set_Data function is used to set the data for the statistics object. It takes an object pointer, an index, and a value, and returns a result indicating success or failure. Here is an example usage:
+
 `stat_type obj;`
 
 `result_type result = Set_Data(&obj, 0, 10);`
