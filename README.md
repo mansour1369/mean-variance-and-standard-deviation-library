@@ -17,14 +17,14 @@ To use this library, include the "statstics.h" header file in your program. You 
 # Usage
 # Set_Data
 The Set_Data function is used to set the data for the statistics object. It takes an object pointer, an index, and a value, and returns a result indicating success or failure. Here is an example usage:
-stat_type obj;
-result_type result = Set_Data(&obj, 0, 10);
+```stat_type obj;
+result_type result = Set_Data(&obj, 0, 10);```
 
 # Calc_Mean
 The Calc_Mean function calculates the mean of the data set. It takes an object pointer and returns a result indicating success or failure. Here is an example usage:
 
-(stat_type obj;
-result_type result = Calc_Mean(&obj);)
+`stat_type obj;
+result_type result = Calc_Mean(&obj);`
 
 # Calc_Variance
 The Calc_Variance function calculates the variance of the data set. It takes an object pointer and returns a result indicating success or failure. Here is an example usage:
